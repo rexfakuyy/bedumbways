@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+        housy-backend:
+                container_name: backend_housy
+                image: reckyprmn/housybackend:2
+                ports:
+                        - 5000:5000
